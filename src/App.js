@@ -45,7 +45,7 @@ function App() {
           style={{ display: "none" }}
           onChange={(e) => setFile(e.target.files[0])}
         />
-        {resultavailable && ( <a href={result} target='_blank'>Click here to download the File</a>)}
+        {resultavailable && ( <a href={result} target='_blank'>{result}</a>)}
        
       </div>
     </div>
