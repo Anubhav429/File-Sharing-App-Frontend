@@ -4,6 +4,7 @@ import { uploadFile } from './service/api';
 
 function App() {
   const [file, setFile] = useState('');
+  const [resultavailable, setresultavailable] = useState(false);
   const [result, setResult] = useState('');
 
   const fileInputRef = useRef();
@@ -18,7 +19,9 @@ function App() {
         data.append("file", file);
 
         const response = await uploadFile(data);
-        setResult(response.path);
+        
+        setResult(response.path.replace('undefined', 'file-sharing-app-backend-9kme.onrender.com'));
+        setresultavailable(true);
       }
     }
     getImage();
@@ -42,8 +45,8 @@ function App() {
           style={{ display: "none" }}
           onChange={(e) => setFile(e.target.files[0])}
         />
-
-        <a href={result} target='_blank'>{result}</a> 
+        {resultavailable && ( <a href={result} target='_blank'>Click here to download the File</a>)}
+       
       </div>
     </div>
   );
