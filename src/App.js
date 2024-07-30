@@ -45,7 +45,7 @@ function App() {
           style={{ display: "none" }}
           onChange={(e) => setFile(e.target.files[0])}
         />
-        {resultavailable && ( <a href={result} target="_blank" without rel="noreferrer">{result}</a>)}
+        {resultavailable && ( <a href={result} target="_blank" rel="noreferrer">{result}</a>)}
        
       </div>
     </div>
