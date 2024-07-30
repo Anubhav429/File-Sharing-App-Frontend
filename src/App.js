@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className='container'>
-      <img src={url} className='img' alt='Image' />
+      <img src={url} className='img' alt='av' />
       <div className='wrapper'>
         <h1>Simple file sharing!</h1>
         <p>Upload and share the download link.</p>
