@@ -51,7 +51,7 @@ function App() {
         {resultavailable && (
           <>
             <a href={result} target="_blank" rel="noreferrer">{result} className='target'</a>
-            {showMessage && <div className ='copy'>Open a tab, paste the link, and press Enter to get the file.</div>}
+            {showMessage && <div className ='copy'>Open a new tab, paste the link, and press Enter to get the file.</div>}
           </>
         )}
       </div>
