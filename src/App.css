@@ -52,11 +52,3 @@ button {
   margin: 30px 0;
 }
 
-
-.target{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%; /* Adjust as necessary */
-  text-align: center;
-}
