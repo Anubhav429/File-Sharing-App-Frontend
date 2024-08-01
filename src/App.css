@@ -53,7 +53,6 @@ button {
 }
 
 .copy{
-  p {
   font-family: 'Roboto', sans-serif; 
   font-size: 16px; 
   line-height: 1.6; /* Increase line height for better spacing */
@@ -65,7 +64,6 @@ button {
   text-transform: capitalize; /* Capitalize the first letter of each word */
   background-color: #f9f9f9; /* Light background color for emphasis */
   padding: 0.5em; /* Add padding around the text */
-}
 
 }
 
