@@ -104,7 +104,7 @@ function App() {
         {resultavailable && (
           <>
             <a href={result} target="_blank" rel="noreferrer">{result}</a>
-            {showMessage && <p>Copy the link and paste it into a new tab to download the file.</p>}
+            {showMessage && <p>Copy the link and paste it into a other tab to download the file.</p>}
           </>
         )}
       </div>
