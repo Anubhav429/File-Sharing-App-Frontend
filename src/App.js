@@ -50,7 +50,7 @@ function App() {
         />
         {resultavailable && (
           <>
-            <a href={result} target="_blank" rel="noreferrer">{result} class='target'</a>
+            <a href={result} target="_blank" rel="noreferrer">{result} className='target'</a>
             {showMessage && <div className ='copy'>Copy the link and paste it into a other tab to download the file.</div>}
           </>
         )}
